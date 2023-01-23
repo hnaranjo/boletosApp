@@ -1,16 +1,16 @@
 public enum LetraBingo {
 
-    B ( min : 1, max : 15, lon : 5 ), 
-    I ( min : 16, max : 30, lon : 5 ), 
-    N ( min : 31, max : 45, lon : 4 ), 
-    G ( min : 46, max : 60, lon : 5 ), 
-    O ( min : 61, max : 75, lon : 5 );
+    B ( 1,15,5 ), 
+    I ( 16, 30, 5 ), 
+    N ( 31, 45, 4 ), 
+    G ( 46, 60, 5 ), 
+    O ( 61, 75, 5 );
 
         private int min;
         private int max;
         private int lon;
 
-        LetraBingo(int min, int max, int lon) {
+    private LetraBingo(int min, int max, int lon) {
             this.min = min;
             this.max = max;
             this.lon = lon;
